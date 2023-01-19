@@ -1,0 +1,19 @@
+* {
+    background-color: grey;
+    margin: 0;
+
+
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#question {
+
+    border: 2px solid wheat;
+    background-color: bisque;
+    width: 25%;
+}
