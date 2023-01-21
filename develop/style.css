@@ -1,6 +1,41 @@
-* {
-    background-color: grey;
+*,
+*::before,
+* ::after {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+
+    padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.startBTN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+    line-height: 20px;
+    height: 5vh;
+    width: 20vw;
+    max-width: fit-content;
+    font-size: 2rem;
+
+}
+
+#timerEL {
+
+    display: flex;
+    justify-content: flex-end;
 
 
 }
@@ -11,9 +46,64 @@
 
 }
 
-#question {
+#container {
+    width: 400px;
+    max-width: 80%;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 10px;
 
-    border: 2px solid wheat;
-    background-color: bisque;
-    width: 25%;
+}
+
+#answerBTNS {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+    align-items: center;
+
+
+}
+
+.btn {
+    background-color: rgb(91, 127, 238);
+    border: 2px solid black;
+    max-width: 50%;
+    border-radius: 5px;
+    padding: 10px 5px;
+    color: white;
+
+
+
+
+}
+
+.btn:hover {
+
+    border-color: rgb(202, 207, 129);
+
+}
+
+#previousBTN,
+#nextBTN {
+    font-size: 2rem;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+
+
+}
+
+.controlBTN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.hide {
+
+    display: none;
 }
