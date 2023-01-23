@@ -17,3 +17,6 @@ This can be used to practice JavaScript code to update and enhance existing code
 
 ![Images of the deployed site](/Assets/GameOver.PNG)
 ![](/Assets/Timer_start.PNG)
+
+deployed site:
+https://faz131.github.io/JavaScript-Quiz-Game/
